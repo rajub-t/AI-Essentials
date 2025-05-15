@@ -1,0 +1,85 @@
+--- Detailed Email Analysis Report ---
+Timestamp: 2025-05-14 22:58:15
+Input File: C:\Users\Admin\Module3\AI-Essentials\processed_email_data_20250514_051540.csv
+------------------------------------------------------------
+General Statistics:
+  Total rows initially loaded: 2672
+  Rows remaining after text preprocessing/filtering: 2672
+------------------------------------------------------------
+--- Domain Analysis ---
+Total domains analyzed (after filtering): 2441
+Unique domains: 484
+Overall Domain Entropy (base 2): 6.8125
+
+Top Sender Domains:
+  hotmail.com: 234
+  yahoo.com: 208
+  virgilio.it: 133
+  yahoo.co.uk: 94
+  netscape.net: 84
+  hotmail.fr: 79
+  latinmail.com: 51
+  she.com: 48
+  tiscali.co.uk: 45
+  yahoo.fr: 38
+------------------------------------------------------------
+--- Sender Analysis ---
+Total email addresses analyzed (after filtering): 2441
+Unique email addresses: 2319
+
+Most Common Senders:
+  simonrobson01@web2mail.com: 4
+  godbless@ibatam.com: 4
+  bkabir@she.com: 3
+  johjohnpaul30@walla.com: 3
+  suzanavaye2@o2.pl: 3
+  semassaq3@o2.pl: 3
+  chuksanthony05@netscape.net: 3
+  sealed@kaixo.com: 3
+  semassaq@o2.pl: 3
+  j_son_m@she.com: 3
+------------------------------------------------------------
+--- Username Pattern Analysis ---
+Email addresses with valid username part analyzed: 2441
+Number of usernames containing numbers: 1407 (57.64%)
+Number of usernames containing underscores: 779 (31.91%)
+Average username length: 11.17
+------------------------------------------------------------
+--- Action Language Analysis (Subjects) ---
+Total subjects analyzed (after filtering): 2638
+Subjects containing action keywords: 492 (18.65%)
+Sample Keywords checked: urgent, action required, immediate action, important, alert...
+------------------------------------------------------------
+--- Machine Learning Analysis Summary ---
+  Text vectorization performed (TF-IDF):
+    - Samples: 2672
+    - Features: 1000
+  Clustering performed (K-Means):
+    - Number of clusters: 4
+  Dimensionality reduction performed (PCA):
+    - Components: 2
+
+  Cluster Sizes and Top Domains (after filtering):
+    - Cluster 0: 327 emails
+      Top Domains:
+        - hotmail.com: 83
+        - hotmail.fr: 56
+        - latinmail.com: 16
+    - Cluster 1: 793 emails
+      Top Domains:
+        - virgilio.it: 79
+        - hotmail.com: 54
+        - yahoo.com: 45
+    - Cluster 2: 1029 emails
+      Top Domains:
+        - yahoo.com: 85
+        - hotmail.com: 52
+        - netscape.net: 41
+    - Cluster 3: 523 emails
+      Top Domains:
+        - yahoo.com: 67
+        - hotmail.com: 45
+        - yahoo.co.uk: 40
+  Visualization saved to: email_clusters.png
+------------------------------------------------------------
+End of Detailed Report
