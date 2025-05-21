@@ -1,0 +1,189 @@
+Domain and Email Analysis Report
+==============================
+Generated on: 2025-05-21 01:05:33
+Analyzed file: C:\Users\Admin\AI-Essentials\Mod3\processed_email_data_20250514_051540.csv
+Total rows in CSV: 2672
+Total emails parsed from 'SenderEmail' (used for domain/username extraction): 2441
+
+
+=== DOMAIN ANALYSIS ===
+Top 10 sender domains (from valid parsed domains):
+  1. hotmail.com: 234 emails
+  2. yahoo.com: 210 emails
+  3. virgilio.it: 133 emails
+  4. yahoo.co.uk: 94 emails
+  5. netscape.net: 84 emails
+  6. hotmail.fr: 79 emails
+  7. latinmail.com: 51 emails
+  8. she.com: 48 emails
+  9. tiscali.co.uk: 45 emails
+  10. yahoo.com.hk: 39 emails
+
+Total unique valid domains found: 456
+Domain distribution entropy: 6.73 (max possible for these domains: 8.83)
+
+
+=== EMAIL ADDRESS ANALYSIS ===
+Top 10 sender email addresses (from valid parsed emails):
+  1. simonrobson01@web2mail.com: 4 emails
+  2. godbless@ibatam.com: 4 emails
+  3. davidmensoh@mail.com: 3 emails
+  4. chuksanthony05@netscape.net: 3 emails
+  5. semassaq@o2.pl: 3 emails
+  6. semassaq3@o2.pl: 3 emails
+  7. bkabir@she.com: 3 emails
+  8. suzanavaye2@o2.pl: 3 emails
+  9. charles444@myway.com: 3 emails
+  10. johjohnpaul30@walla.com: 3 emails
+
+Total unique valid email addresses found: 2319
+
+Email address username patterns (from valid parsed emails):
+  Usernames analyzed: 2411
+  Usernames containing numbers: 1398 (58.0%)
+  Usernames containing underscores: 776 (32.2%)
+  Average username length: 11.2 characters
+
+
+=== SUBJECT ACTION ANALYSIS ===
+Found 711 emails (26.6%) with action-oriented phrases in 2672 subjects analyzed.
+
+Top action phrases found in subject lines (up to 10):
+  1. 'urgent': 486 emails (18.2% of analyzed subjects)
+  2. 'reply': 197 emails (7.4% of analyzed subjects)
+  3. 'attention': 70 emails (2.6% of analyzed subjects)
+  4. 'important': 26 emails (1.0% of analyzed subjects)
+  5. 'asap': 26 emails (1.0% of analyzed subjects)
+  6. 'respond': 20 emails (0.7% of analyzed subjects)
+  7. 'immediate': 16 emails (0.6% of analyzed subjects)
+  8. 'confirm': 14 emails (0.5% of analyzed subjects)
+  9. 'response needed': 13 emails (0.5% of analyzed subjects)
+  10. 'update': 4 emails (0.1% of analyzed subjects)
+
+
+=== TEXT FEATURE EXTRACTION (TF-IDF from Subjects) ===
+Top terms across all email subjects (TF-IDF, up to 10 from 2672 subjects):
+  urgent: (score) 223.60
+  reply: (score) 108.96
+  assistance: (score) 108.28
+  please: (score) 104.40
+  business: (score) 95.79
+  proposal: (score) 84.15
+  confidential: (score) 70.04
+  good: (score) 69.02
+  hello: (score) 65.83
+  help: (score) 63.65
+
+
+=== EMAIL CLUSTERING (K-Means on Subject TF-IDF) ===
+Clustering performed into 4 groups (from 2672 subjects).
+Cluster distribution:
+  Cluster 0: 170 emails (6.4%)
+  Cluster 1: 318 emails (11.9%)
+  Cluster 2: 2074 emails (77.6%)
+  Cluster 3: 110 emails (4.1%)
+
+Most common words in each cluster (from subjects):
+  Cluster 0: reply, urgent, please, needed, urgently, need, soon, asap, portugal, read
+  Cluster 1: urgent, assistance, response, business, confidential, treat, needed, please, proposal, need
+  Cluster 2: business, mr, assistance, good, please, proposal, mrs, day, confidential, hello
+  Cluster 3: help, please, need, cry, urgent, family, assistance, pls, dear, seeking
+
+Domain distribution by cluster (Top 3 domains per cluster):
+  Cluster 0 top domains:
+    hotmail.com: 24 emails (15.3%)
+    yahoo.com: 14 emails (8.9%)
+    yahoo.co.uk: 11 emails (7.0%)
+  Cluster 1 top domains:
+    hotmail.com: 38 emails (13.0%)
+    yahoo.com: 30 emails (10.3%)
+    hotmail.fr: 20 emails (6.8%)
+  Cluster 2 top domains:
+    hotmail.com: 165 emails (8.7%)
+    yahoo.com: 147 emails (7.7%)
+    virgilio.it: 125 emails (6.6%)
+  Cluster 3 top domains:
+    yahoo.com: 19 emails (20.4%)
+    hotmail.com: 7 emails (7.5%)
+    o2.pl: 7 emails (7.5%)
+
+
+=== VISUALIZING EMAIL CLUSTERS (PCA) ===
+  A PCA plot ('email_clusters.png' or 'email_clusters_1D.png') is generated if data is sufficient.
+  This visualizes subject-based email clusters. If not generated, check console logs from clustering step.
+
+
+=== DOMAIN AGE ANALYSIS (For Top 25 Unique Domains) ===
+Domain creation dates and ages (days) for successfully analyzed domains:
+  voila.fr: Created 2008-01-24, Age: 6326 days
+  hotmail.fr: Created 2004-12-08, Age: 7468 days
+  yahoo.co.in: Created 2003-06-30, Age: 7995 days
+  yahoo.ca: Created 2000-10-04, Age: 8995 days
+  virgilio.it: Created 2000-09-29, Age: 9000 days
+  tiscali.co.uk: Created 2000-03-02, Age: 9211 days
+  o2.pl: Created 1999-12-22, Age: 9281 days
+  fsmail.net: Created 1999-05-04, Age: 9513 days
+  rediffmail.com: Created 1998-08-15, Age: 9775 days
+  yahoo.com.hk: Created 1998-07-10, Age: 9812 days
+  caramail.com: Created 1997-08-25, Age: 10130 days
+  indiatimes.com: Created 1996-11-22, Age: 10406 days
+  yahoo.fr: Created 1996-09-19, Age: 10470 days
+  yahoo.co.uk: Created 1996-08-01, Age: 10520 days
+  walla.com: Created 1995-12-20, Age: 10744 days
+  123.com: Created 1995-11-13, Age: 10781 days
+  terra.com.mx: Created 1995-06-30, Age: 10918 days
+  ...plus 8 other domains were attempted for WHOIS but yielded no valid age data (check console for errors).
+
+Domain age statistics (based on 17 domains with valid age data):
+  Average domain age: 9490.9 days (~26.0 years)
+  Newest domain: 6326 days (~17.3 years)
+  Oldest domain: 10918 days (~29.9 years)
+
+
+=== VIRUSTOTAL DOMAIN ANALYSIS (SAMPLE - Top 10 Unique, Valid Domains) ===
+  maktoob.com: {'malicious': 0, 'suspicious': 0, 'undetected': 30, 'harmless': 64, 'timeout': 0}
+  spinfinder.com: {'malicious': 0, 'suspicious': 0, 'undetected': 30, 'harmless': 64, 'timeout': 0}
+  epatra.com: {'malicious': 0, 'suspicious': 0, 'undetected': 31, 'harmless': 63, 'timeout': 0}
+  www.com: {'malicious': 2, 'suspicious': 1, 'undetected': 29, 'harmless': 62, 'timeout': 0}
+  lycos.com: {'malicious': 0, 'suspicious': 0, 'undetected': 29, 'harmless': 65, 'timeout': 0}
+  rediffmail.com: {'malicious': 0, 'suspicious': 0, 'undetected': 32, 'harmless': 62, 'timeout': 0}
+  diplomats.com: {'malicious': 0, 'suspicious': 1, 'undetected': 31, 'harmless': 62, 'timeout': 0}
+  lawyer.com: {'malicious': 0, 'suspicious': 0, 'undetected': 31, 'harmless': 63, 'timeout': 0}
+  usa.com: {'malicious': 0, 'suspicious': 0, 'undetected': 32, 'harmless': 62, 'timeout': 0}
+  hotmail.com: {'malicious': 0, 'suspicious': 0, 'undetected': 28, 'harmless': 66, 'timeout': 0}
+
+
+=== HIGH-RISK EMAILS (FROM CSV 'Label' COLUMN) ===
+Found 2441 high-risk emails based on 'Label' column's value being '1'.
+  Sample (up to 20):
+    james_ngola2002@maktoob.com: Identified as High Risk (Label=1)
+    bensul2004nng@spinfinder.com: Identified as High Risk (Label=1)
+    obong_715@epatra.com: Identified as High Risk (Label=1)
+    obong_715@epatra.com: Identified as High Risk (Label=1)
+    m_abacha03@www.com: Identified as High Risk (Label=1)
+    tunde_dosumu@lycos.com: Identified as High Risk (Label=1)
+    william2244drallo@maktoob.com: Identified as High Risk (Label=1)
+    abdul_817@rediffmail.com: Identified as High Risk (Label=1)
+    barrister_td@lycos.com: Identified as High Risk (Label=1)
+    temijohnson2@rediffmail.com: Identified as High Risk (Label=1)
+    sjordan@diplomats.com: Identified as High Risk (Label=1)
+    p_brown2@lawyer.com: Identified as High Risk (Label=1)
+    elixwilliam@usa.com: Identified as High Risk (Label=1)
+    anayoawka@hotmail.com: Identified as High Risk (Label=1)
+    james_ngola2002@maktoob.com: Identified as High Risk (Label=1)
+    martinchime@usa.com: Identified as High Risk (Label=1)
+    mboro1555@post.com: Identified as High Risk (Label=1)
+    martinchime@borad.com: Identified as High Risk (Label=1)
+    edema_mb@phantomemail.com: Identified as High Risk (Label=1)
+    adewilliams_ade@lawyer.com: Identified as High Risk (Label=1)
+    ... and 2421 more.
+
+
+--- Optional Analyses (Placeholders) ---
+  The following sections are placeholders for analyses not fully implemented/run in this script version:
+  - Scam Categories in Email Content: Not run or no data
+  - Top URL Domains in Email Bodies: Not run or no data
+  - Comprehensive Threat Scores: Not run or no data
+
+
+--- End of Report ---
