@@ -1,0 +1,41 @@
+=== Email Data Processing Report ===
+
+Processing Statistics:
+Total rows initially loaded: 3332
+Rows removed as junk: 0
+Rows in final clean dataset: 3332
+
+NULL Value Statistics:
+sender_name: 335 NULL values (10.1%)
+sender_email: 335 NULL values (10.1%)
+sender_domain: 335 NULL values (10.1%)
+recipient_name: 2252 NULL values (67.6%)
+recipient_email: 2252 NULL values (67.6%)
+datetime: 482 NULL values (14.5%)
+subject: 39 NULL values (1.2%)
+body: 1 NULL values (0.0%)
+urls: 0 NULL values (0.0%)
+label: 0 NULL values (0.0%)
+
+Output Columns:
+- sender_name
+- sender_email
+- sender_domain
+- recipient_name
+- recipient_email
+- datetime
+- subject
+- body
+- urls
+- label
+
+Sample of Processed Data:
+First 5 rows of cleaned data:
+          sender_name                  sender_email  ... urls label
+0    MR. JAMES NGOLA.   james_ngola2002@maktoob.com  ...    0     1
+1     Mr. Ben Suleman  bensul2004nng@spinfinder.com  ...    0     1
+2  PRINCE OBONG ELEME          obong_715@epatra.com  ...    0     1
+3  PRINCE OBONG ELEME          obong_715@epatra.com  ...    0     1
+4       Maryam Abacha            m_abacha03@www.com  ...    0     1
+
+[5 rows x 10 columns]
