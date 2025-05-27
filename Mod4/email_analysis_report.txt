@@ -1,0 +1,96 @@
+===== MALICIOUS EMAIL ANALYSIS REPORT =====
+Generated on: 2025-05-27 06:19:47
+Total emails analyzed: 3332
+
+=== DOMAIN ANALYSIS ===
+Total unique domains: 547
+
+Top 15 sender domains:
+1. hotmail.com: 307 emails
+2. yahoo.com: 250 emails
+3. virgilio.it: 158 emails
+4. yahoo.co.uk: 114 emails
+5. netscape.net: 107 emails
+6. hotmail.fr: 106 emails
+7. latinmail.com: 60 emails
+8. she.com: 53 emails
+9. tiscali.co.uk: 49 emails
+10. walla.com: 48 emails
+11. msn.com: 43 emails
+12. yahoo.fr: 43 emails
+13. caramail.com: 42 emails
+14. yahoo.co.in: 40 emails
+15. yahoo.com.hk: 39 emails
+
+Domain distribution entropy: 6.30
+Maximum possible entropy: 9.10
+
+=== EMAIL ADDRESS ANALYSIS ===
+Total unique email addresses: 2834
+
+Top 15 sender email addresses:
+1. researchers-owner@krusty.si.UM: 7 emails
+2. potobo3@walla.com: 4 emails
+3. godbless@ibatam.com: 4 emails
+4. simonrobson01@web2mail.com: 4 emails
+5. semassaq3@o2.pl: 3 emails
+6. charles444@myway.com: 3 emails
+7. deangray200@netscape.net: 3 emails
+8. j_son_m@she.com: 3 emails
+9. jasonleceister@virgilio.it: 3 emails
+10. davidmensoh@mail.com: 3 emails
+11. mrnelsonbidi_3@123.com: 3 emails
+12. suzanavaye2@o2.pl: 3 emails
+13. sealed@kaixo.com: 3 emails
+14. frankmorris2@virgilio.it: 3 emails
+15. johjohnpaul30@walla.com: 3 emails
+
+Username pattern analysis:
+- Usernames with numbers: 1726 (51.8%)
+- Usernames with underscores: 970 (29.1%)
+- Average username length: 10.4 characters
+
+=== SUBJECT ACTION ANALYSIS ===
+Emails with action-oriented phrases: 935 (28.1%)
+
+=== DOMAIN AGE ANALYSIS ===
+Domains with registration information: 1567
+Average domain age: 10198.7 days (27.9 years)
+Newest domain: 8002.0 days (21.9 years)
+Oldest domain: 11156.0 days (30.5 years)
+
+=== VIRUSTOTAL DOMAIN ANALYSIS ===
+Domains analyzed with VirusTotal: 16
+Average detection score: 0.005
+
+=== EMAIL CONTENT ANALYSIS ===
+Emails with monetary content: 3027 (90.8%)
+Emails with urgency indicators: 809 (24.3%)
+Emails with suspicious links: 475 (14.3%)
+Emails with credential requests: 1954 (58.6%)
+
+Scam Category Distribution:
+  financial: 2565 emails
+  romance: 1225 emails
+  phishing: 1218 emails
+  job: 690 emails
+  blackmail: 498 emails
+  lottery: 496 emails
+  malware: 287 emails
+
+=== COMPREHENSIVE THREAT SCORING ===
+Threat Score distribution by email:
+Critical: 0 emails
+High: 0 emails
+Medium: 328 emails
+Low: 1952 emails
+Minimal: 1052 emails
+
+=== INTELLIGENCE SUMMARY & RECOMMENDATIONS ===
+Overall average threat score: 0.265
+Analysis:
+  - The overall threat score is moderate, suggesting that while some risk exists, it may be within acceptable limits.
+A significant number of emails have high scam scores, indicating the presence of fraudulent language and tactics.
+Recommendation: Review and enhance content-based filtering rules, focusing on keywords and patterns common in scam emails.
+Overall Recommendation: Integrate this threat analysis into your email security operations.
+Use these metrics to drive proactive threat intelligence by continuously monitoring these indicators and adjusting preventive measures accordingly.
